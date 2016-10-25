@@ -14,7 +14,7 @@
  * This view is inside a section wrapper as described in wrapper.php.
  */
 if (elgg_is_xhr) {
-	echo elgg_echo ( 'gcconnex_profile:opt:opt_in_access' );
+	//echo elgg_echo ( 'gcconnex_profile:opt:opt_in_access' );
 	
 	$user_guid = elgg_get_logged_in_user_guid();
 	$user = get_user ( $user_guid );
@@ -25,7 +25,8 @@ if (elgg_is_xhr) {
 			'value' => $access_id,
 			'class' => 'gcconnex-opt-in-access' 
 	);
-	echo elgg_view ( 'input/access', $params );
+    //Nick the acl isn't working for opt in because the metadata is saved to the user and not an actual object :(
+	//echo elgg_view ( 'input/access', $params );
 	
 	// Decides whether or not the checkbox should start checked.
 	/*if($user->opt_in_missions == 'gcconnex_profile:opt:yes') {
