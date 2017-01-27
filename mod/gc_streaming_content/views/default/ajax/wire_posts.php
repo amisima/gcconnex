@@ -13,6 +13,7 @@ $content = elgg_list_entities(array(
 	'limit' => get_input('limit'),
 	'preload_owners' => true,
     'pagination' =>false,
+    'list_class'=>'newest-wire-list',
 ));
 
 echo $content;

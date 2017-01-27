@@ -27,3 +27,7 @@
      .posts-holder ul .list-break{
          border-bottom: 1px solid #ddd !important;
      }
+     
+     .newest-wire-list{
+         display:none;
+     }

@@ -137,6 +137,7 @@ function loadNewPosts(){
                         success: function (data) {
                         $('.posts-holder').prepend(data);
                         $('.stream-new-wire').remove();
+                            $('.posts-holder .newest-wire-list:first-child').fadeIn('slow');
                             stream_count();
                     }
                         
