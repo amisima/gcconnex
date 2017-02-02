@@ -2,6 +2,7 @@
 
 /*
 * Multi File Upload - Creates a bootstrap multi file upload form
+* Made usign plugin from: http://plugins.krajee.com/file-input
 *
 * @version 1.0
 * @author Ethan Wallace
