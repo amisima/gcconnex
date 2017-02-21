@@ -11,7 +11,7 @@
 		if ('gsa-crawler' != strtolower($_SERVER['HTTP_USER_AGENT'])) {
 			elgg_extend_view('css','custom_index_widgets/css');
 			elgg_extend_view('css/admin', 'custom_index_widgets/admin-css');
-			elgg_extend_view('page/elements/head','custom_index_widgets/js');
+			//elgg_extend_view('page/elements/head','custom_index_widgets/js');
 			
 			
 			/***********************************************************************************************/
