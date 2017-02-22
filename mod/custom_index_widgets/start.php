@@ -11,6 +11,12 @@
 		if ('gsa-crawler' != strtolower($_SERVER['HTTP_USER_AGENT'])) {
 			elgg_extend_view('css','custom_index_widgets/css');
 			elgg_extend_view('css/admin', 'custom_index_widgets/admin-css');
+            /*
+            * GC_MODIFICATION
+            * Description: commenting out the swfobject js as we do not make use of the swf widget. This would cause flash plugins to load on every page.
+            * Author: Nick github.com/piet0024
+            * Date: 2017-02-22
+            */
 			//elgg_extend_view('page/elements/head','custom_index_widgets/js');
 			
 			
